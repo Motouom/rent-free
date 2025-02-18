@@ -229,7 +229,3 @@ The project uses a monorepo to organize shared resources and streamline developm
 1. Use a Git workflow with feature branches and pull requests.
 2. Assign labels to tickets for clear tracking.
 3. Use tools like Trello or Jira for sprint planning.
-
----
-
-Let me know if you’d like to expand on any section!
