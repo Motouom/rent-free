@@ -47,13 +47,23 @@
             {{ errors.confirmPassword }}
           </p>
         </div>
+        <div class="flex justify-between space-x-4 mt-4">
+          <button
+            type="submit"
+            class="flex-1 py-2 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-650"
+          >
+            Register
+          </button>
 
-        <button
-          type="submit"
-          class="w-full py-2 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-650"
-        >
-          Register
-        </button>
+            <button
+              @click="navigate"
+              type="button"
+              class="flex-1 py-2 bg-green-600 text-white font-semibold rounded-md hover:bg-green-650 cursor-pointer"
+            >
+              Login
+            </button>
+
+        </div>
       </form>
     </div>
   </div>
@@ -77,7 +87,7 @@ export default {
       // Email validation
       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
       if (!this.email || !emailRegex.test(this.email)) {
-        this.errors.email = 'Please enter a valid email.'
+        this.errors.email = 'Please enter a valid 0303\email.'
         valid = false
       }
 
