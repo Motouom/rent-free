@@ -50,7 +50,7 @@
 
         <button
           type="submit"
-          class="w-full py-2 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700"
+          class="w-full py-2 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-650"
         >
           Register
         </button>
